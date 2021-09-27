@@ -6,13 +6,13 @@
 
 1. docker启动influxdb (docker这里默认已经安装好)<br>
 ~~~bash
-$ cd /opt && wget https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/remote_storage/docker-compose.yml
+$ cd /opt && wget https://raw.githubusercontent.com/Joker1222/monitor-config/master/remote_storage/docker-compose.yml
 $ docker-compose up -d
 ~~~
 
 2.获取并启动Prometheus提供的Remote Storage Adapter
 ~~~bash
-$ cd /opt && wget https://github.com/Joker1222/Personal-Server-Monitor/raw/master/remote_storage/remote_storage_adapter
+$ cd /opt && wget https://github.com/Joker1222/monitor-config/raw/master/remote_storage/remote_storage_adapter
 $ cd /opt && chmod 777 remote_storage_adapter && nohup ./remote_storage_adapter --influxdb-url=http://localhost:8086 --influxdb.username=prom --influxdb.database=prometheus --influxdb.retention-policy=autogen > remote.log &
 ~~~
 
