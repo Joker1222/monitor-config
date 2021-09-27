@@ -11,5 +11,5 @@
 | Process_Exporter| 0.7.5 |
 
 # Specification
-[Install tutorial check here](https://github.com/Joker1222/monitor-configr/tree/master/tutorial)
+[Install tutorial check here](https://github.com/Joker1222/monitor-config/tree/master/tutorial)
 
