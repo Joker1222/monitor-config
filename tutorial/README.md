@@ -1,11 +1,11 @@
 # 先按顺序安装以下几个工具
-1. [Prometheus click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/prometheus) <br>
+1. [Prometheus click here ](https://github.com/Joker1222/monitor-config/tree/master/prometheus) <br>
 
-2. [Grafana click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/grafana) <br>
+2. [Grafana click here ](https://github.com/Joker1222/monitor-config/tree/master/grafana) <br>
 
-3. [NodeExporter click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/node_exporter) <br>
+3. [NodeExporter click here ](https://github.com/Joker1222/monitor-config/tree/master/node_exporter) <br>
 
-4. [ProcessExporter click here ](https://github.com/Joker1222/Personal-Server-Monitor/tree/master/process_exporter) <br>
+4. [ProcessExporter click here ](https://github.com/Joker1222/monitor-config/tree/master/process_exporter) <br>
 
 # 上述工具安装且部署成功后,下面将各个工具连接起来 
 
@@ -84,7 +84,7 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 ### 4. Grafana配置process_exporter仪表盘(Dashboards)
 
 **点击Import,这里导入一个json配置文件,不用社区提供的仪表盘** <br><br>
-[process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/Personal-Server-Monitor/master/process_exporter/process-exporter-dashboard.json) <br><br>
+[process-dashboard-json配置下载链接](https://raw.githubusercontent.com/Joker1222/monitor-config/master/process_exporter/process-exporter-dashboard.json) <br><br>
 ![GrafanaProcess1](../png/GrafanaProcess1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
