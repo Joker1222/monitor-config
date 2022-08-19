@@ -72,6 +72,9 @@ $ cd /opt/prometheus/ && ./run.sh restart # 保存后重启prometheus即可生�
 ### 3. Grafana配置node_exporter仪表盘(Dashboards)
 
 **点击Import导入node仪表盘配置,id:8919** <br><br>
+**注意：8919是社区版的通用仪表盘配置，可能和我们教程内使用的prometheus数据源不兼容，建议使用笔者自己保存的json配置** <br>
+[node面板](https://github.com/Joker1222/monitor-config/blob/master/node_exporter/personal-node-config.json) <br>
+
 ![GrafanaNode1](../png/GrafanaNode1.png)
 
 **选择Prometheus数据源后保存即可** <br><br>
